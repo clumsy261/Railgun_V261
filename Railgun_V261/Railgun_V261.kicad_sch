@@ -2800,12 +2800,6 @@
 		(uuid "e1e88b97-d429-4710-a338-4d77cb06a401")
 	)
 	(junction
-		(at 143.51 116.84)
-		(diameter 0)
-		(color 132 0 0 1)
-		(uuid "ed89cf26-9a7e-4f71-bcc5-350eb87622e2")
-	)
-	(junction
 		(at 148.59 130.81)
 		(diameter 0)
 		(color 0 0 0 1)
@@ -2908,6 +2902,17 @@
 			(color 132 0 0 1)
 		)
 		(uuid "21f84c33-af17-4601-a5b3-61a83cdae610")
+	)
+	(wire
+		(pts
+			(xy 146.05 116.84) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(uuid "2d261192-d6c9-4b3a-9ccd-3d3f8da020a7")
 	)
 	(wire
 		(pts
@@ -3340,17 +3345,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 116.84) (xy 146.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 0 0 1)
-		)
-		(uuid "bab9f4dd-ea60-4375-b60f-9558d3a2bb04")
-	)
-	(wire
-		(pts
 			(xy 173.99 119.38) (xy 177.8 119.38)
 		)
 		(stroke
@@ -3671,6 +3665,85 @@
 			(project "Railgun_V261"
 				(path "/ba78d8f7-e77c-48a0-8550-98b43e828c80"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 165.1 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bf4f1e3-137c-4081-9ada-06e01513d43a")
+		(property "Reference" "R8"
+			(at 165.1 112.268 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 165.1 114.808 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 118.618 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 165.1 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4119a49a-d59c-40c6-8a88-3e43eb91cb75")
+		)
+		(pin "2"
+			(uuid "db7d78c3-5b2a-4baf-85ab-8746199d9cdd")
+		)
+		(instances
+			(project "Railgun_V261"
+				(path "/ba78d8f7-e77c-48a0-8550-98b43e828c80"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4497,6 +4570,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452752b7-3c03-4510-86aa-22c133b1bec0")
+		(property "Reference" "#PWR05"
+			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51e59bc6-be21-47f6-8f94-8954344dd7ad")
+		)
+		(instances
+			(project "Railgun_V261"
+				(path "/ba78d8f7-e77c-48a0-8550-98b43e828c80"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 173.99 127 0)
 		(unit 1)
@@ -4931,7 +5083,7 @@
 		(dnp no)
 		(uuid "9405977c-a784-46b8-bbe7-0835c145b55c")
 		(property "Reference" "SW1"
-			(at 153.67 117.094 0)
+			(at 153.67 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

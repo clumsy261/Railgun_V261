@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "C:/Apps/Tools/msys64/ucrt64/avr/include",
+                "C:/Apps/Tools/msys64/ucrt64/lib/gcc/avr/13.2.0/include"
+            ],
+            "defines": [
+                "F_CPU=1200000UL",
+                "__AVR_ATtiny13A__",
+                "__AVR__",
+                "__AVR_ATtiny85__"
+            ],
+            "compilerPath": "C:/Apps/Tools/msys64/ucrt64/bin/avr-gcc.exe",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x64",
+            "forcedInclude": []
+        }
+    ],
+    "version": 4
+}
