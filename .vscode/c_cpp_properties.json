@@ -4,7 +4,8 @@
             "name": "AVR",
             "includePath": [
                 "C:/Apps/Tools/msys64/ucrt64/avr/include",
-                "C:/Apps/Tools/msys64/ucrt64/lib/gcc/avr"
+                "C:/Apps/Tools/msys64/ucrt64/lib/gcc/avr",
+                "C:/Apps/Tools/msys64/ucrt64/include"
             ],
             "defines": [
                 "F_CPU=1200000UL",
